@@ -22,6 +22,7 @@ echo Compiling prime.cpp...
 g++ -c prime.cpp -o prime.o
 
 echo Building Rust project...
-cargo rustc --release -- -Clink-arg="prime.o"
+cargo rustc --release -- -Clink-arg=prime.o -Clink-arg=-lkernel32
+
 
 endlocal
