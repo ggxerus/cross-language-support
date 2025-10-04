@@ -1,0 +1,1 @@
+This is a edit to my example of combining rust and c++ but for a speciffic use case : windows api (memory manipulation functions and Process manipulation) i made this a branch beacouse i dont think this deserver a whole new project
